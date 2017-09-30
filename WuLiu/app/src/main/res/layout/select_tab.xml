@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="52dp"
+    android:layout_gravity="center"
+    android:orientation="horizontal"
+    android:background="@color/backblack"
+    android:baselineAligned="false">
+
+    <LinearLayout
+        android:id="@+id/tab_shouye"
+        android:layout_marginTop="2dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center|center_vertical"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/pic_shuiqing"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="23dp"
+            android:layout_height="23dp"
+            android:src="@drawable/shishi"/>
+
+        <TextView
+            android:id="@+id/tab_shouye_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="12sp"
+            android:text="首页"
+            android:textColor="@color/waterblue"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tab_shuixi"
+        android:layout_marginTop="2dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center|center_vertical"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/pic_shuixi"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="23dp"
+            android:layout_height="23dp"
+            android:src="@drawable/yujing"/>
+
+        <TextView
+            android:id="@+id/tab_shuixi_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="12sp"
+            android:text="地图"
+            android:textColor="@color/unchoose"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tab_paike"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_weight="1"
+        android:layout_gravity="center|center_vertical"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/pic_shuile"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="23dp"
+            android:layout_height="23dp"
+            android:src="@drawable/paike"/>
+
+        <TextView
+            android:id="@+id/tab_paike_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="12sp"
+            android:text="统计"
+            android:textColor="@color/unchoose"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/tab_mylogin"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_weight="1"
+        android:layout_gravity="center|center_vertical"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/pic_mine"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="23dp"
+            android:layout_height="23dp"
+            android:src="@drawable/mine"/>
+
+        <TextView
+            android:id="@+id/tab_mine_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="12sp"
+            android:text="我的"
+            android:textColor="@color/unchoose"/>
+    </LinearLayout>
+
+</LinearLayout>

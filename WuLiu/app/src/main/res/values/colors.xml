@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="waterblue">#23afff</color>
+    <color name="backblack">#303032</color>
+    <color name="unchoose">#84868c</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="unselected">#99FFFFFF</color>
+    <color name="liked">#FAFAFA</color>
+    <color name="ivory">#FFFFF0</color><!--象牙色 -->
+    <color name="background">#E1E1E1</color>
+    <color name="textRelated">#666666</color>
+    <color name="marqueeText">#000000</color>
+    <color name="textBlack">#333</color>
+    <color name="twhite">#dfFFFFFF</color>
+    <color name="hotgrade2">#00ce23</color>
+    <color name="hotgrade3">#ffd900</color>
+    <color name="hotgrade4">#ff7f00</color>
+    <color name="hotgrade5">#ee2d00</color>
+    <color name="snow">#FFFAFA</color>
+    <color name="gainsboro">#DCDCDC</color>
+</resources>
